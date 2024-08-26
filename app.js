@@ -13,7 +13,7 @@ app.use('*', logger())
 app.get('/api', api)
 app.get('/test', handler)
 app.get('/', (c) => {
-
+/*
     return c.html(`
                     <html>
                         <head>
@@ -41,7 +41,7 @@ app.get('/', (c) => {
 
                         </body>
                     </html>`
-    )
+    )*/
 })
 
 export default app
